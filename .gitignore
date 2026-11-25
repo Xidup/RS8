@@ -1,0 +1,28 @@
+# 官方原驱动、固件二进制与说明书原始拍摄素材（体积大且非开源源码，保留本地不上传）
+RS8_origin/
+说明书（拍摄版）/
+_research/
+Diagnostic/
+docs/screenshots/
+.workbuddy-ai/
+
+# 本地研究与过程文档
+RS8_逆向与重写报告.html
+迭代计划-v2.md
+问题分析与修改方案-v3.md
+UI美化方案-v1.md
+
+# 编译与打包产物
+RS8Control/bin/
+RS8Control/obj/
+dist/
+*.user
+*.suo
+
+# 运行时诊断日志与系统垃圾文件
+RS8Control_crash.txt
+RS8_diagnostic.txt
+RS8_scan.txt
+RS8_via_probe.txt
+Thumbs.db
+desktop.ini
